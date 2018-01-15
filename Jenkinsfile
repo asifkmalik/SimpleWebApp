@@ -3,6 +3,6 @@ node {
       git 'https://github.com/asifkmalik/SimpleWebApp.git'
    }
    stage('Build') {
-      gradlew clean test
+      "gradlew clean test"
    }
 }
