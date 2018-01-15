@@ -10,6 +10,9 @@ public class QueryProcessor {
         if (query.toLowerCase().contains("rowling")) {
             return "Joanne Rowling, CH, OBE, FRSL, FRCPE, who writes under the pen names J. K. Rowling and Robert Galbraith, is a British novelist and screenwriter who is best known for writing the Harry Potter fantasy series.";
         }
+        if (query.toLowerCase().contains("wilde")) {
+            "Oscar Fingal O'Flahertie Wills Wilde was an Irish poet and playwright. After writing in different forms throughout the 1880s, he became one of London's most popular playwrights in the early 1890s";
+        }
         return "";
     }
 }
